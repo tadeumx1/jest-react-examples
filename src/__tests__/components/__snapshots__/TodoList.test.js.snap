@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Todos Component should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Apollo(Apollo(Apollo(TodoList))) />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": [Function],
+      "ignoreResults": true,
+      "mutation": Object {
+        "definitions": Array [
+          Object {
+            "directives": Array [],
+            "kind": "OperationDefinition",
+            "name": undefined,
+            "operation": "mutation",
+            "selectionSet": Object {
+              "kind": "SelectionSet",
+              "selections": Array [
+                Object {
+                  "alias": undefined,
+                  "arguments": Array [
+                    Object {
+                      "kind": "Argument",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "text",
+                      },
+                      "value": Object {
+                        "kind": "Variable",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "text",
+                        },
+                      },
+                    },
+                  ],
+                  "directives": Array [],
+                  "kind": "Field",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "createTodo",
+                  },
+                  "selectionSet": Object {
+                    "kind": "SelectionSet",
+                    "selections": Array [
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "id",
+                        },
+                        "selectionSet": undefined,
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "text",
+                        },
+                        "selectionSet": undefined,
+                      },
+                      Object {
+                        "alias": undefined,
+                        "arguments": Array [],
+                        "directives": Array [],
+                        "kind": "Field",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "completed",
+                        },
+                        "selectionSet": undefined,
+                      },
+                    ],
+                  },
+                },
+              ],
+            },
+            "variableDefinitions": Array [
+              Object {
+                "defaultValue": undefined,
+                "kind": "VariableDefinition",
+                "type": Object {
+                  "kind": "NonNullType",
+                  "type": Object {
+                    "kind": "NamedType",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "String",
+                    },
+                  },
+                },
+                "variable": Object {
+                  "kind": "Variable",
+                  "name": Object {
+                    "kind": "Name",
+                    "value": "text",
+                  },
+                },
+              },
+            ],
+          },
+        ],
+        "kind": "Document",
+        "loc": Object {
+          "end": 110,
+          "start": 0,
+        },
+      },
+      "variables": undefined,
+    },
+    "ref": null,
+    "rendered": [Function],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": [Function],
+        "ignoreResults": true,
+        "mutation": Object {
+          "definitions": Array [
+            Object {
+              "directives": Array [],
+              "kind": "OperationDefinition",
+              "name": undefined,
+              "operation": "mutation",
+              "selectionSet": Object {
+                "kind": "SelectionSet",
+                "selections": Array [
+                  Object {
+                    "alias": undefined,
+                    "arguments": Array [
+                      Object {
+                        "kind": "Argument",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "text",
+                        },
+                        "value": Object {
+                          "kind": "Variable",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "text",
+                          },
+                        },
+                      },
+                    ],
+                    "directives": Array [],
+                    "kind": "Field",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "createTodo",
+                    },
+                    "selectionSet": Object {
+                      "kind": "SelectionSet",
+                      "selections": Array [
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "id",
+                          },
+                          "selectionSet": undefined,
+                        },
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "text",
+                          },
+                          "selectionSet": undefined,
+                        },
+                        Object {
+                          "alias": undefined,
+                          "arguments": Array [],
+                          "directives": Array [],
+                          "kind": "Field",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "completed",
+                          },
+                          "selectionSet": undefined,
+                        },
+                      ],
+                    },
+                  },
+                ],
+              },
+              "variableDefinitions": Array [
+                Object {
+                  "defaultValue": undefined,
+                  "kind": "VariableDefinition",
+                  "type": Object {
+                    "kind": "NonNullType",
+                    "type": Object {
+                      "kind": "NamedType",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "String",
+                      },
+                    },
+                  },
+                  "variable": Object {
+                    "kind": "Variable",
+                    "name": Object {
+                      "kind": "Name",
+                      "value": "text",
+                    },
+                  },
+                },
+              ],
+            },
+          ],
+          "kind": "Document",
+          "loc": Object {
+            "end": 110,
+            "start": 0,
+          },
+        },
+        "variables": undefined,
+      },
+      "ref": null,
+      "rendered": [Function],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

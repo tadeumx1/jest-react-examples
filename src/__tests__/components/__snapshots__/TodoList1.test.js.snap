@@ -1,0 +1,374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Todos Component should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TodoList1
+    allTodoes={
+        Array [
+            Object {
+              "id": "cjlsbtne80tg50182ep34ielv",
+              "text": "Fazer café",
+            },
+            Object {
+              "id": "cjlsbtttz0tg90182jhya4xs2",
+              "text": "Estudar GraphQL",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ul>
+          <li>
+                    Fazer café
+                    <input
+                              onClick={[Function]}
+                              type="submit"
+                              value="Remover"
+                    />
+          </li>
+          <li>
+                    Estudar GraphQL
+                    <input
+                              onClick={[Function]}
+                              type="submit"
+                              value="Remover"
+                    />
+          </li>
+</ul>,
+        <input
+          onChange={[Function]}
+          type="text"
+          value=""
+/>,
+        <input
+          onClick={[Function]}
+          type="submit"
+          value="Criar"
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              Fazer café
+              <input
+                            onClick={[Function]}
+                            type="submit"
+                            value="Remover"
+              />
+</li>,
+            <li>
+              Estudar GraphQL
+              <input
+                            onClick={[Function]}
+                            type="submit"
+                            value="Remover"
+              />
+</li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "cjlsbtne80tg50182ep34ielv",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Fazer café",
+                <input
+                  onClick={[Function]}
+                  type="submit"
+                  value="Remover"
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Fazer café",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "onClick": [Function],
+                  "type": "submit",
+                  "value": "Remover",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "cjlsbtttz0tg90182jhya4xs2",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Estudar GraphQL",
+                <input
+                  onClick={[Function]}
+                  type="submit"
+                  value="Remover"
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Estudar GraphQL",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "onClick": [Function],
+                  "type": "submit",
+                  "value": "Remover",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "onChange": [Function],
+          "type": "text",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "onClick": [Function],
+          "type": "submit",
+          "value": "Criar",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ul>
+            <li>
+                        Fazer café
+                        <input
+                                    onClick={[Function]}
+                                    type="submit"
+                                    value="Remover"
+                        />
+            </li>
+            <li>
+                        Estudar GraphQL
+                        <input
+                                    onClick={[Function]}
+                                    type="submit"
+                                    value="Remover"
+                        />
+            </li>
+</ul>,
+          <input
+            onChange={[Function]}
+            type="text"
+            value=""
+/>,
+          <input
+            onClick={[Function]}
+            type="submit"
+            value="Criar"
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                Fazer café
+                <input
+                                onClick={[Function]}
+                                type="submit"
+                                value="Remover"
+                />
+</li>,
+              <li>
+                Estudar GraphQL
+                <input
+                                onClick={[Function]}
+                                type="submit"
+                                value="Remover"
+                />
+</li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "cjlsbtne80tg50182ep34ielv",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Fazer café",
+                  <input
+                    onClick={[Function]}
+                    type="submit"
+                    value="Remover"
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Fazer café",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "onClick": [Function],
+                    "type": "submit",
+                    "value": "Remover",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "cjlsbtttz0tg90182jhya4xs2",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Estudar GraphQL",
+                  <input
+                    onClick={[Function]}
+                    type="submit"
+                    value="Remover"
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Estudar GraphQL",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "onClick": [Function],
+                    "type": "submit",
+                    "value": "Remover",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "onChange": [Function],
+            "type": "text",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "onClick": [Function],
+            "type": "submit",
+            "value": "Criar",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

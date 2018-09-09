@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Todos Component should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Todos
+    dispatch={[Function]}
+    todos={
+        Array [
+            Object {
+              "id": 0,
+              "text": "Fazer café",
+            },
+            Object {
+              "id": 0,
+              "text": "Acessar o slack",
+            },
+            Object {
+              "id": 0,
+              "text": "Ver RocketLive",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li>
+          Fazer café
+</li>,
+        <li>
+          Acessar o slack
+</li>,
+        <li>
+          Ver RocketLive
+</li>,
+      ],
+      "className": "Todos",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Fazer café",
+        },
+        "ref": null,
+        "rendered": "Fazer café",
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Acessar o slack",
+        },
+        "ref": null,
+        "rendered": "Acessar o slack",
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Ver RocketLive",
+        },
+        "ref": null,
+        "rendered": "Ver RocketLive",
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li>
+            Fazer café
+</li>,
+          <li>
+            Acessar o slack
+</li>,
+          <li>
+            Ver RocketLive
+</li>,
+        ],
+        "className": "Todos",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Fazer café",
+          },
+          "ref": null,
+          "rendered": "Fazer café",
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Acessar o slack",
+          },
+          "ref": null,
+          "rendered": "Acessar o slack",
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Ver RocketLive",
+          },
+          "ref": null,
+          "rendered": "Ver RocketLive",
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;
